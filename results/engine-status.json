@@ -1,0 +1,31 @@
+{
+  "final_engine_evidence": {
+    "adapter_negative_control_mismatches": 40,
+    "all_sql_to_cq_set_results_equal": true,
+    "engine": "SQLite",
+    "engine_version": "3.46.1",
+    "engine_version_role": "environment metadata only; exact semantic fields are compared independently of this string",
+    "hand_written_cq_adapters": 8,
+    "interpretation": "finite SQL pair replay and per-side comparison with explicit hand-written CQ adapters; no parser, general NULL, latency, or optimizer claim",
+    "legal_databases": 64,
+    "pair_internal_bag_equality": true,
+    "pair_internal_set_equality": true,
+    "public_query_pairs": 8,
+    "query_executions": 1024,
+    "raw_result": "results/public/sqlite-replay.json",
+    "sql_null_input_cells_finitely_encoded": 50,
+    "sql_to_cq_set_comparisons": 1024,
+    "status": "PASSED",
+    "theory_null_semantics_claim": false,
+    "unchanged_sql_queries": 16
+  },
+  "nonexecuted_requested_engine": {
+    "cli_available": false,
+    "engine": "DuckDB",
+    "interpretation": "No DuckDB evidence is counted; SQLite and the Python CQ evaluator are not represented as DuckDB.",
+    "public_query_replays": 0,
+    "python_import_available": false,
+    "status": "NOT_RUN_PACKAGE_UNAVAILABLE",
+    "substitute_engine_mislabeled": false
+  }
+}

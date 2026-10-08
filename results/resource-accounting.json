@@ -1,0 +1,66 @@
+{
+  "accounting_boundary": "The retained final record is one actual five-stage Linux reproduction run. Development-time editor commands, manuscript compilation, web acquisition, and other reruns are outside this run record.",
+  "claims": "The scientific reproduction satisfies the frozen execution limits. Measurements support closure only, not algorithmic or database-engine performance.",
+  "comparison_policy": {
+    "all_other_fields": "exact comparison",
+    "environment_metadata_fields_reported_not_scientifically_compared": [
+      "engine_version"
+    ],
+    "volatile_measurement_fields_ignored": [
+      "cpu_seconds",
+      "peak_rss_kib",
+      "wall_seconds"
+    ]
+  },
+  "environment_metadata_drift": [],
+  "final_reproduction": {
+    "certificates_rechecked": 56,
+    "conservative_obligations": 103007,
+    "cpu_seconds": 4.045533611,
+    "largest_child_peak_rss_kib": 97324,
+    "not_included_in_obligation_counter": [
+      "regression tests",
+      "scientific file comparisons",
+      "certificate rechecks",
+      "certificate mutation rejections",
+      "illegal graph-fold rejection",
+      "SQL-to-CQ adapter comparisons",
+      "adapter negative-control evaluations",
+      "figure rows rebuilt"
+    ],
+    "obligation_components": {
+      "coloring_assignments": 203,
+      "family_block_pair_separators": 288,
+      "family_directed_containment_entries": 768,
+      "image_partitions": 3960,
+      "producer_charged_search_obligations": 3744,
+      "public_block_pair_separators": 0,
+      "public_directed_containment_entries": 32,
+      "sqlite_query_executions": 1024,
+      "tiny_ordered_query_pair_checks_36_per_legal_database": 92988
+    },
+    "parent_peak_rss_kib": 127268,
+    "process_swap_kib": 0,
+    "regression_tests": 46,
+    "scientific_files_compared": 246,
+    "sqlite_sql_executions": 1024,
+    "sqlite_sql_to_cq_set_comparisons": 1024,
+    "status": "WITHIN_LIMITS",
+    "tiny_legal_valuations": 2583,
+    "wall_seconds": 4.21973608899998,
+    "workers": 1
+  },
+  "interpretation": "The 128-tuple cap is an execution bound. Formula-only depth-seven and larger all-key cases are not materialized.",
+  "run_limits": {
+    "address_space_gib": 2.5,
+    "archive_bytes_ceiling": 134217728,
+    "concrete_tuple_cap": 128,
+    "cpu_seconds_per_child": 240,
+    "project_cpu_ceiling_seconds": 21600,
+    "project_equivalence_partition_obligation_ceiling": 500000,
+    "project_tiny_legal_valuation_ceiling": 100000,
+    "raw_chase_record_cap": 256,
+    "wall_seconds_per_command": 300,
+    "workers": 1
+  }
+}
